@@ -71,6 +71,9 @@
               background: url('../img/company/value-img0#{$i}.png') no-repeat center / cover;
             }
           }
+          &:nth-child(2){
+            background: url('../img/company/value-img02.PNG') no-repeat center / cover;
+          }
           &:nth-child(1),
           &:nth-child(2) {
             margin-bottom: 30px;
