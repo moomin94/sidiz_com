@@ -6,105 +6,246 @@
     <title>xwood</title>
     <link rel="shortcut icon" href="./assets/img/favicon.ico" />
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/scss/style.css">
     <script type="text/javascript" src="../assets/js/jquery.min.js"></script>
     <script type="text/javascript" src="../assets/js/common.js"></script>
   </head>
   <body class="subpage">
     <div id="wrap">
       <header id="header">
-        <h1 id="top-logo"><a href="../index.html"><img src="../assets/img/logo.png" alt="logo"></a></h1>
-        <nav id="top-nav">
-          <ul>
-            <li>
-              <a href="../company/introduce.html">Company</a>
-              <ul class="sub-menu">
+        <div class="inner-wrap">
+          <h1 id="top-logo"><a href="../index.html"><img src="../assets/img/logo.png" alt="logo"></a></h1>
+          <nav id="top-nav">
+            <ul>
+              <li>
+                <a href="../company/introduce.html">Company</a>
+                <ul class="sub-menu">
+                  <li><a href="../company/introduce.html">Introduce</a></li>
+                  <li><a href="../company/ci.html">CI</a></li>
+                  <li><a href="../company/history.html">History</a></li>
+                </ul>
+              </li>
+              <li><a href="../product/product.html">Product</a></li>
+              <li><a href="../gallery/gallery.html">Gallery</a></li>
+              <li>
+                <a href="../community/notice.html">Community</a>
+                <ul class="sub-menu">
+                  <li><a href="../community/notice.html">Notice</a></li>
+                  <li><a href="../community/faq.html">FAQ</a></li>
+                </ul>
+              </li>
+              <li><a href="../location/location.html">Location</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main class="history">
+        <div class="inner-wrap">
+          <!-- 컨텐츠 영역 -->
+          <div class="container">
+            <!-- 왼쪽 메뉴(LNB) -->
+            <aside id="lnb">
+              <ul>
                 <li><a href="../company/introduce.html">Introduce</a></li>
                 <li><a href="../company/ci.html">CI</a></li>
-                <li><a href="../company/history.html">History</a></li>
+                <li class="on"><a href="../company/history.html">History</a></li>
               </ul>
-            </li>
-            <li><a href="../product/product.html">Product</a></li>
-            <li><a href="../gallery/gallery.html">Gallery</a></li>
-            <li>
-              <a href="../community/notice.html">Community</a>
-              <ul class="sub-menu">
-                <li><a href="../community/notice.html">Notice</a></li>
-                <li><a href="../community/faq.html">FAQ</a></li>
-              </ul>
-            </li>
-            <li><a href="../location/location.html">Location</a></li>
-          </ul>
-        </nav>
-      </header>
-      <main>
-        <!-- 컨텐츠 영역 -->
-        <div class="container">
-          <!-- 왼쪽 메뉴(LNB) -->
-          <aside id="lnb">
-            <ul>
-              <li><a href="../company/introduce.html">Introduce</a></li>
-              <li><a href="../company/ci.html">CI</a></li>
-              <li class="on"><a href="../company/history.html">History</a></li>
-            </ul>
-          </aside>
-          <!-- 컨텐츠 본문 영역 -->
-          <div class="content">
-            <div class="inner"></div>
-          </div>
-        </div>
-      </main>
-      <footer id="footer">
-        <div class="footer-top">
-          <!-- footer 상단 영역 -->
-          <div class="container">
-            <div class="row">
-              <!-- logo -->
-              <div class="column footer-logo">
-                <h3><a href="../index.html"><img src="../assets/img/logo.png" alt="logo img"></a></h3>
-              </div>
-              <!-- site map -->
-              <div class="column">
-                <h4>site map</h4>
-                <ul>
-                  <ul>
-                    <li><a href="../company/introduce.html">Company</a></li>
-                    <li><a href="../product/product.html">Product</a></li>
-                    <li><a href="../gallery/gallery.html">Gallery</a></li>
-                    <li><a href="../community/notice.html">Community</a></li>
-                    <li><a href="../location/location.html">Location</a></li>
-                  </ul>
-                </ul>
-              </div>
-              <!-- contact us -->
-              <div class="column">
-                <h4>contact us</h4>
-                <p>
-                  A108 Adam street <br>
-                  New York, NY 535022 <br>
-                  United states <br>
-                  <strong>phone :</strong><a href="tel:+82-010-0000-0000">+82-010-0000-0000</a><br>
-                  <strong>E-mail :</strong><a href="mailto:mymail@naver.com">mymail@naver.com</a><br>
-                </p>
-              </div>
-              <!-- news -->
-              <div class="column news">
-                <h4>news</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...</p>
-                <form>
-                  <input type="search" name="search"><input type="submit" name="submit" value="search">
-                </form>
+            </aside>
+            <!-- 컨텐츠 본문 영역 -->
+            <div class="content">
+              <div class="sub-title"><span>History</span></div>
+              <div class="inner">
+                <div class="box">
+                  <div class="items">
+                    <h3 class="title">HISTORY</h3>
+                    <h4 class="title-h4">1994-2021</h4>
+                  </div>
+                  <div class="items history-list">
+                    <span class="line"></span>
+                    <ul>
+                      <li>
+                        <h5>2021</h5>
+                        <p>02 아이블(ible) 출시</p>
+                      </li>
+                      <li>
+                        <h5>2020</h5>
+                        <p>06 아기의자 몰티(molti) 출시</p>
+                        <p>12 BI(Brand Identity) 리뉴얼</p>
+                      </li>
+                      <li>
+                        <h5>2018</h5>
+                        <p>05 5월 아마존 US 입점</p>
+                      </li>
+                      <li>
+                        <h5>2017</h5>
+                        <p>05 펑거스 독일 IF Product Design Award 수상</p>
+                        <p>02 펑거스,T40 미국 IDEA 파이널리스트 선정</p>
+                      </li>
+                      <li>
+                        <h5>2016</h5>
+                        <p>04 T50 AIR 인간공학디자인상 장려상</p>
+                      </li>
+                      <li>
+                        <h5>2015</h5>
+                        <p>11 펑거스 핀업디자인어워드 은상 수상</p>
+                        <p>11 T25 일본 Good Design Award 수상</p>
+                        <p>10 필로,펑거스,플랑,버튼 한국 Good Design Award 수상</p>
+                        <p>04 T80,T25 인간공학 디자인상 금상, 은상 수상</p>
+                        <p>04 T80 인간공학 디자인상 'BEST OF BEST' 수상</p>
+                      </li>
+                      <li>
+                        <h5>2014</h5>
+                        <p>04 T80, 링고 일본 Good Design Award 수상</p>
+                        <p>04 T50 시리즈, 머니투데이 2014 상반기 베스트상품 선정</p>
+                        <p>04 링고, 조선일보 소비자가 뽑은 신뢰 브랜드 대상 수상</p>
+                      </li>
+                      <li>
+                        <h5>2013</h5>
+                        <p>12 T50 시리즈, 한국경제 '2013 한경 소비자 대상'</p>
+                        <p>06 링고, T60 시리즈 독일연방 디자인어워드 노미네이트</p>
+                        <p>05 링고 인간공학 디자인상 대상</p>
+                      </li>
+                      <li>
+                        <h5>2012</h5>
+                        <p>11 링고 IF Product Design Award 2013 수상</p>
+                        <p>08 시디즈 미국 그린가드 인증</p>
+                        <p>06 아시아 생산성기구(APO)대표단 평택공장 방문</p>
+                        <p>05 중국 최대 사무가구회사 '오로라'와 합작법인 설립</p>
+                        <p>03 2012 서울 핵안보정상회의 각국 정상용 의자 선정</p>
+                      </li>
+                      <li>
+                        <h5>2011</h5>
+                        <p>12 T60 시리즈, 독일안전승인 GS 마크 획득</p>
+                        <p>11 M07 시리즈, 핀업디자인어워드 은상 수상, 굿디자인 선정</p>
+                        <p>10 시디즈 공식 블로그 및 SNS 오픈</p>
+                        <p>10 T60 시리즈, IF Product Design Award 2012 수상</p>
+                        <p>제 35회 국가생산성대회 대통령단체표창 수상</p>
+                      </li>
+                      <li>
+                        <h5>2010</h5>
+                        <p>12 시디즈 김상현 사장, 대한민국 디자인대상 대통령상 수상</p>
+                        <p>11 제 47회 무역의날 천만불 수출의 탑 수상</p>
+                        <p>11 신기술실용화 촉진대회 지식경제부 장관상 수상</p>
+                        <p>07 시디즈 평택 시험소, 미국 BIFMA 시험소 리스트 등재</p>
+                      </li>
+                      <li>
+                        <h5>2009</h5>
+                        <p>12 2009년 제11회 대한민국디자인대상 경영부문 표창 수상</p>
+                        <p>09 2009년 제 35회 전국분임조 경진대회 은상 수상</p>
+                        <p>07 T55, IDEA 파이널리스트 선정</p>
+                        <p>01 친환경 인증 획득</p>
+                      </li>
+                      <li>
+                        <h5>2007</h5>
+                        <p>09 T50 시리즈 출시</p>
+                        <p>07 2007 품질경쟁력 우수기업 선정</p>
+                        <p>05 KOLAS 인정(국제공인시험기관 인정)</p>
+                        <p>03 시디즈1호 판매지정점 계약</p>
+                        <p>03 INNO-BIZ 기업 선정</p>
+                      </li>
+                      <li>
+                        <h5>2005</h5>
+                        <p>10 친환경상품진흥원, 환경인증 획득</p>
+                      </li>
+                      <li>
+                        <h5>2004</h5>
+                        <p>11 한국산업디자이너협회 TDCK 인증 획득</p>
+                        <p>06한국 서비스 진흥원 사후봉사 우수기업 인증 획득</p>
+                        <p>05 제31회 상공의 날 기념 경기도지사 표창장 수상</p>
+                        <p>03 국세청장 표창장 수상</p>
+                      </li>
+                      <li>
+                        <h5>2003</h5>
+                        <p>02 물류관리 자동화시스템(WMS) 도입</p>
+                      </li>
+                      <li>
+                        <h5>2002</h5>
+                        <p>11 제 39회 무역의 날 백만불 수출의 탑 수상</p>
+                        <p>05 전사적 자원관리 시스템(ERP) 도입</p>
+                        <p>03 성실납세자 상패</p>
+                      </li>
+                      <li>
+                        <h5>1999</h5>
+                        <p>03 ISO 9001확장 인증 획득</p>
+                      </li>
+                      <li>
+                        <h5>1998</h5>
+                        <p>09 경기도 중소유망기업 선정</p>
+                        <p>07 기업 부설 의자연구소 설립</p>
+                        <p>02 가정용 가구 사업부 출범</p>
+                      </li>
+                      <li>
+                        <h5>1997</h5>
+                        <p>10 ISO 14001 인증 획득</p>
+                        <p>09 ISO 9002 인증 획득</p>
+                      </li>
+                      <li>
+                        <h5>1994</h5>
+                        <p>10 KSG 4204(강제사무용의자) 인증 획득</p>
+                        <p>08 (주)씨템 설립</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="container">
-          <!-- footer 하단 영역 -->
-          <div class="copyright">
-            &copy;copyright <strong>mypage</strong> All Rights Reserved.
+      </main>
+      <footer id="footer">
+        <div class="inner-wrap">
+          <div class="footer-top">
+            <!-- footer 상단 영역 -->
+            <div class="container">
+              <div class="row">
+                <!-- logo -->
+                <div class="column footer-logo">
+                  <h3><a href="../index.html"><img src="../assets/img/logo.png" alt="logo img"></a></h3>
+                </div>
+                <!-- site map -->
+                <div class="column">
+                  <h4>site map</h4>
+                  <ul>
+                    <ul>
+                      <li><a href="./company/introduce.html">Company</a></li>
+                      <li><a href="./product/product.html">Product</a></li>
+                      <li><a href="./gallery/gallery.html">Gallery</a></li>
+                      <li><a href="./community/notice.html">Community</a></li>
+                      <li><a href="./location/location.html">Location</a></li>
+                    </ul>
+                  </ul>
+                </div>
+                <!-- contact us -->
+                <div class="column">
+                  <h4>contact us</h4>
+                  <p>
+                    06564 서울특별시 서초구 방배중앙로19길 1 (방배동) <br>
+                    1층 시디즈 서초내방점 <br>
+                    <strong>phone : </strong><a href="tel:+82-010-0000-0000">+82-010-0000-0000</a><br>
+                    <strong>E-mail : </strong><a href="mailto:mymail@naver.com">mymail@naver.com</a><br>
+                  </p>
+                </div>
+                <!-- news -->
+                <div class="column news">
+                  <h4>news</h4>
+                  <p>평택--(뉴스와이어) 2022년 11월 16일 -- 퍼시스그룹의 의자 전문 브랜드 시디즈(대표 이상배)가 11월 17일(목)부터 20일(일)까지 부산 벡스코(BEXCO)에서 열리는 국제게임전시회 ‘지스타(G-STAR 2022)’에 처음 참가한다.
+                    시디즈는 국내 최대 온라인 게임 커뮤니티 인벤과의 협업을 통해 시디즈 부스를 마련하고, 시디즈의 첫 게이밍 의자 시리즈인 GC PRO를 최초 공개한다. 시디즈는 GC PRO 체험존을 구성해 방문객들에게 게이밍에 최적화된 인체공학적 기능과 디자인을 갖춘 게이밍 의자를 직접 체험해 볼 수 있는 기회를 제공할 예정이다.
+                    </p>
+                  <form>
+                    <input type="search" name="search"><input type="submit" name="submit" value="search">
+                  </form>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="credits">
-            Designed By <a href="mailto:aaa@naver.com">mypage</a>.
+          <div class="container">
+            <!-- footer 하단 영역 -->
+            <div class="copyright">
+              &copy;copyright <strong>mypage</strong> All Rights Reserved.
+            </div>
+            <div class="credits">
+              Designed By <a href="mailto:aaa@naver.com">mypage</a>.
+            </div>
           </div>
         </div>
       </footer>

@@ -4,8 +4,12 @@ $footerHeight: 612px;
 $mainMinHeight: calc( 100vh - (#{$headerHeight} + #{$footerHeight}) - 51px );
 
 #wrap {
-  width: $siteWidth;
-  margin: 0 auto;
+  width: 100%;
+  min-width: 1320px;
+  .inner-wrap {
+    width: 1320px;
+    margin: 0 auto;
+  }
   #header {
     position: relative;
     height: 75px;
@@ -26,7 +30,7 @@ $mainMinHeight: calc( 100vh - (#{$headerHeight} + #{$footerHeight}) - 51px );
     //top menu
     #top-nav {
       position: relative;
-      height: 60px;
+      height: 75px;
       float: right;
       ul {
         float: left;
@@ -49,13 +53,13 @@ $mainMinHeight: calc( 100vh - (#{$headerHeight} + #{$footerHeight}) - 51px );
           }
           a {
             width: 100%;
-            height: 60px;
-            line-height: 60px;
+            height: 75px;
+            line-height: 75px;
           }
           //submenu 구현
           .sub-menu {
             position: absolute;
-            top: 100%;
+            top: 80%;
             border: 1px solid $borderColorPrimary;
             opacity: 0;
             // width: 0;
@@ -91,7 +95,7 @@ $mainMinHeight: calc( 100vh - (#{$headerHeight} + #{$footerHeight}) - 51px );
     .footer-top {
       padding: 60px 0 30px;
     }
-    & > .container {
+    & .inner-wrap > .container {
       padding: 30px 0;
       text-align: center;
     }
@@ -167,9 +171,14 @@ $mainMinHeight: calc( 100vh - (#{$headerHeight} + #{$footerHeight}) - 51px );
             }
           }
           p {
-            line-height: 26px;
+            font-size: 14px;
+            line-height: 22px;
           }
         }
+      }
+      .credits,
+      .copyright {
+        font-size: 14px;
       }
     }
   }

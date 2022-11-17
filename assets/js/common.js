@@ -52,23 +52,6 @@ $(function(){
     pageBtnFunc($(this));
   });
 
-  // accordian
-  // $('dd:not(:first)').css('display', 'none');
-  // $('dl dt').click(function(){
-  //   // $('+dd', this) : find는 자식요소 찾을 때 사용, 인접한 선택자 선택할 때는 <이런식으로 사용.
-  //   if($('+dd', this).css('display') == 'none'){
-  //     // $('dd').css('display', 'none');
-  //     // $('+dd',this).css('display', 'block');
-  //     $('dd').slideUp({duration: '1500', easing: 'easeInOutExpo'});
-  //     $('+dd', this).slideDown({duration: '1500', easing: 'easeInOutExpo'});
-  //   }else{
-  //     $('dd').slideUp('slow');
-  //   };
-  // });
-  /*
-  실습 :
-  animate method를 사용하여 위와 같은 로직을 구현하시오.
-  */
   let initialDdHeight = parseInt($('.faq dd').css('height'));
   $('dd:not(:first)').css({'display': 'none', 'height': 0});
   $('dl dt').click(function(){
@@ -96,5 +79,4 @@ $(function(){
   }).mouseout(function(){
     $('td').removeClass('hover');
   });
-
 });

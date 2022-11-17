@@ -7,7 +7,7 @@ body {
   color: $fontColorBasic;
   font-family: 'Noto Sans KR', sans-serif;
   font-family: 'Poppins', sans-serif;
-  letter-spacing: -0.03em;
+  letter-spacing: -0.04em;
 }
 
 html,body,ul,li,h1,h2,h3,h4,h5,h6 {
@@ -17,6 +17,11 @@ html,body,ul,li,h1,h2,h3,h4,h5,h6 {
 
 h1,h2,h3,h4,h5,h6 {
   color: $fontColorTitle;
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 li {
