@@ -441,6 +441,10 @@ table {
   margin-top: 50px;
 }
 .marker-title {
-  font-weight: 700;
-  font-size: $fontSizeMid;
+  width: 60px;
+  padding: 5px;
+  span {
+    font-weight: 700;
+    font-size: $fontSizeMid;
+  }
 }
