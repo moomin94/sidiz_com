@@ -76,6 +76,9 @@ a:hover {
 .box .items img {
   width: 100%;
 }
+.box .items.center {
+  text-align: center;
+}
 
 .introduce .box .items {
   padding: 30px;
@@ -164,6 +167,46 @@ a:hover {
   margin-bottom: 15px;
 }
 
+.ci .box .items {
+  padding: 30px;
+}
+.ci .box .items .title {
+  margin-top: 30px;
+}
+.ci .box .items .title.ci-title {
+  font-family: "Noto Sans KR", sans-serif;
+}
+.ci .box .items p.ci-info {
+  font-size: 16px;
+}
+.ci .box .items.ci-bg {
+  position: relative;
+}
+.ci .box .items.ci-bg img {
+  opacity: 0.1;
+}
+.ci .box .items.ci-bg ul {
+  width: 80%;
+  display: flex;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%);
+}
+.ci .box .items.ci-bg ul li {
+  width: 30%;
+  margin: 0 50px;
+  text-align: center;
+}
+.ci .box .items.ci-bg ul li span {
+  font-size: 14px;
+}
+.ci .box .items.ci-bg ul li h4 {
+  font-size: 120px;
+  font-weight: 400;
+  line-height: 1;
+}
+
 .history .box .items {
   padding: 30px;
 }
@@ -240,6 +283,10 @@ a:hover {
 .product .box .items .title {
   margin-top: 0;
 }
+.product .box .items .gbtn {
+  margin: 50px 0 0 40%;
+  font-size: 15px;
+}
 
 .gallery-wrap {
   width: 100%;
@@ -298,6 +345,54 @@ a:hover {
 .gallery-wrap .gallery .navi-wrap #navi .page-wrap .page {
   float: left;
   overflow: hidden;
+}
+
+.location .box {
+  text-align: center;
+}
+.location .box .items {
+  padding: 20px;
+}
+.location .box .items .title {
+  margin-top: 20px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.location .box .items .location-btn {
+  margin-top: 30px;
+}
+.location .box .items .location-btn ul {
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+}
+.location .box .items .location-btn ul li {
+  width: 33%;
+  padding: 8px 15px;
+  background-color: #fff;
+  border: 1px solid #33353d;
+  cursor: pointer;
+  font-family: "Noto Sans KR", sans-serif;
+  transition: 0.3s;
+}
+.location .box .items .location-btn ul li:not(:nth-child(1)) {
+  border-left: 0;
+}
+.location .box .items .location-btn ul li.on, .location .box .items .location-btn ul li:hover {
+  background-color: #33353d;
+  color: #fff;
+}
+.location .location-list {
+  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+}
+.location .location-list li {
+  color: #1d1d1d;
+  font-size: 18px;
+  display: none;
+}
+.location .location-list li.on {
+  display: block;
 }
 
 dl {
@@ -543,6 +638,7 @@ table.common-table tr:not(:first-child):hover {
   position: relative;
   width: 100%;
   height: calc(100vh - 75px);
+  overflow: hidden;
 }
 .mainbanner .bg {
   position: absolute;

@@ -3,6 +3,7 @@
   position: relative;
   width: 100%;
   height: calc(100vh - 75px);
+  overflow: hidden;
   .bg {
     position: absolute;
     top: 0;

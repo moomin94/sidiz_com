@@ -19,6 +19,9 @@
     img {
       width: 100%;
     }
+    &.center {
+      text-align: center;
+    }
   }
 }
 
@@ -109,6 +112,54 @@
   }
 }
 
+// ci
+.ci {
+  .box {
+    .items {
+      padding: 30px;
+      .title {
+        margin-top: 30px;
+        &.ci-title {
+          font-family: 'Noto Sans KR', sans-serif;
+
+        }
+      }
+      p {
+        &.ci-info {
+          font-size: 16px;
+        }
+      }
+      &.ci-bg {
+        position: relative;
+        img {
+          opacity: 0.1;
+        }
+        ul {
+          width: 80%;
+          display: flex;
+          position: absolute;
+          top: 30%;
+          left: 50%;
+          transform: translate(-50%);
+          li {
+            width: 30%;
+            margin: 0 50px;
+            text-align: center;
+            span {
+              font-size: 14px;
+            }
+            h4 {
+              font-size: 120px;
+              font-weight: 400;
+              line-height: 1;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 // history
 .history {
   .box {
@@ -185,16 +236,20 @@
 }
 
 // product 
-  .product{
-    .box {
-      .items {
-        padding: 20px;
-        .title {
-          margin-top: 0;
-        }
+.product{
+  .box {
+    .items {
+      padding: 20px;
+      .title {
+        margin-top: 0;
+      }
+      .gbtn {
+        margin: 50px 0 0 40%;
+        font-size: 15px;
       }
     }
   }
+}
 
 // gallery
 .gallery-wrap {
@@ -253,6 +308,58 @@
             overflow: hidden;
           }
         }
+      }
+    }
+  }
+}
+
+//location 
+.location {
+  .box {
+    text-align: center;
+    .items {
+      padding: 20px;
+      .title {
+        margin-top: 20px;
+        font-family: 'Noto Sans KR', sans-serif;
+      }
+      .location-btn {
+        margin-top: 30px;
+        ul {
+          display: flex;
+          width: 50%;
+          margin: 0 auto;
+          li {
+            width: 33%;
+            padding: 8px 15px;
+            background-color: #fff;
+            border: 1px solid $borderColorPrimary;
+            cursor: pointer;
+            font-family: 'Noto Sans KR', sans-serif;
+            transition: .3s;
+            &:not(:nth-child(1)){
+              border-left: 0;
+            }
+            &.on,
+            &:hover {
+              background-color: $borderColorPrimary;
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+  .location-list {
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    li {
+      color: $fontColorTitle;
+      font-size: $fontSizeMid;
+      display: none;
+      &.on {
+        display: block;
       }
     }
   }
