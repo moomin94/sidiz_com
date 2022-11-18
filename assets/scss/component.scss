@@ -442,7 +442,7 @@ table {
 }
 .customoverlay {
   position: relative;
-  bottom: 85px;
+  bottom: 60px;
   border-radius: 6px;
   border: 1px solid #ccc;
   border-bottom: 2px solid #ddd;
@@ -454,7 +454,7 @@ table {
   a {
     display: block;
     text-decoration: none;
-    color: #fff;
+    color: $fontColorPrimary;
     text-align: center;
     border-radius: 6px;
     font-size: 14px;
